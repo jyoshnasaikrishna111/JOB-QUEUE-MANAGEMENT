@@ -1,0 +1,26 @@
+{
+  "name": "job-queue-management-system",
+  "version": "1.0.0",
+  "description": "OS-Based Job Queue Management System with Real-Time Scheduling Simulator & Gantt Chart",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:all": "node -e \"const { spawn } = require('child_process'); spawn('npm', ['--prefix', 'server', 'run', 'dev'], { stdio: 'inherit', shell: true }); spawn('npm', ['--prefix', 'client', 'run', 'dev'], { stdio: 'inherit', shell: true });\"",
+    "test": "npm --prefix client run test",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "operating-system",
+    "job-queue",
+    "cpu-scheduling",
+    "fcfs",
+    "sjf",
+    "srtf",
+    "round-robin",
+    "priority-scheduling",
+    "gantt-chart"
+  ],
+  "author": "Deepika",
+  "license": "MIT"
+}
