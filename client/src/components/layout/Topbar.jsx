@@ -115,10 +115,10 @@ export const Topbar = ({ onToggleSidebar, activeTab }) => {
         {/* User / Profile Area */}
         <div className="flex items-center gap-2 pl-1 border-l border-slate-800">
           <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-tr from-violet-600 to-cyan-500 text-white font-bold text-xs shadow-sm">
-            D
+            J
           </div>
           <div className="hidden xl:block text-left">
-            <p className="text-xs font-medium text-white leading-tight">Deepika</p>
+            <p className="text-xs font-medium text-white leading-tight">Jyoshna</p>
             <p className="text-[10px] text-slate-400">OS Engineer</p>
           </div>
         </div>

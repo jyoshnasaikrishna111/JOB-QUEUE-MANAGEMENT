@@ -79,7 +79,7 @@ const MainApp = () => {
               OS-Based Job Queue Management & Scheduling Simulator &bull; Final Year / Mini Project Demonstration
             </p>
             <p className="font-mono text-[11px] text-cyan-400">
-              Developed by Deepika &bull; CS & Engineering
+              Developed by Jyoshna &bull; CS & Engineering
             </p>
           </div>
         </footer>
